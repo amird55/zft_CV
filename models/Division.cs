@@ -5,6 +5,6 @@ using System.Text;
 namespace models {
     class Division {
         public int      Id;
-        public string   DivisionName;
+        public string DivisionName;
     }
 }

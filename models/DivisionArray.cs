@@ -15,7 +15,9 @@ namespace models {
             this.records[this.currPosition] = newRecord;
             this.currPosition++;
         }
-
+        public string ReadRecord(int recordId) {
+            return this.records[recordId].DivisionName;
+        }
 
         private int getNextDivisionId() {
             return this.currPosition+1;
